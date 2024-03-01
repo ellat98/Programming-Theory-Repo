@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEditor;
 using TMPro;
 
 public class MainManager : MonoBehaviour
@@ -20,4 +21,15 @@ public class MainManager : MonoBehaviour
     {
         
     }
+
+    public void Exit()
+    {
+
+#if UNITY_EDITOR
+        EditorApplication.ExitPlaymode();
+#else
+        Application.Quit(); // original code to quit Unity player
+#endif
+    }
+
 }
