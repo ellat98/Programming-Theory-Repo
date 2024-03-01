@@ -7,7 +7,7 @@ using TMPro;
 
 public class Car : MonoBehaviour
 {
-    protected TextMeshProUGUI info;
+    public TextMeshProUGUI info;
     [SerializeField] GameObject canvas;
 
     // Start is called before the first frame update

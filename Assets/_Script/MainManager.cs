@@ -8,8 +8,8 @@ using TMPro;
 
 public class MainManager : MonoBehaviour
 {
-    public List<GameObject> cars;
-    public TextMeshProUGUI nome;
+    [SerializeField] List<GameObject> cars;
+    [SerializeField] TextMeshProUGUI nome;
     public static MainManager Instance;
     // Start is called before the first frame update
     void Start()

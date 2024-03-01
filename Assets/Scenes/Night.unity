@@ -569,6 +569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 945d80a856e669f4ca974972face8c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  info: {fileID: 1341425876}
   canvas: {fileID: 1860458638}
 --- !u!1 &513839669
 GameObject:
@@ -1075,6 +1076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ea752b2491dc64449b7a58aef857859, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  info: {fileID: 1341425876}
   canvas: {fileID: 1860458638}
 --- !u!1001 &936713225
 PrefabInstance:
@@ -1251,6 +1253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2325b3adf996bc489aaf1962cbd39f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  info: {fileID: 1341425876}
   canvas: {fileID: 1860458638}
 --- !u!1 &1091130992
 GameObject:
@@ -1469,6 +1472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5207172988095b49a531e5ec86c1e72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  info: {fileID: 1341425876}
   canvas: {fileID: 1860458638}
 --- !u!1 &1213570757
 GameObject:
@@ -2087,6 +2091,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62c5ad2e9c0492649aa27f7cb19dd3b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  info: {fileID: 1341425876}
   canvas: {fileID: 1860458638}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
