@@ -8,7 +8,7 @@ public class UserControl : MonoBehaviour
     public static UserControl Instance;
     public string PlayerName;
     public string CurrentPlayerName;
-    // Start is called before the first frame update
+
     private void Awake()    
     {
         if (Instance != null)

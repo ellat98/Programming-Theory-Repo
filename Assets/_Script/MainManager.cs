@@ -8,6 +8,7 @@ using TMPro;
 
 public class MainManager : MonoBehaviour
 {
+    public List<GameObject> cars;
     public TextMeshProUGUI name;
     public static MainManager Instance;
     // Start is called before the first frame update
