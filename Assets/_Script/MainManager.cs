@@ -9,12 +9,12 @@ using TMPro;
 public class MainManager : MonoBehaviour
 {
     public List<GameObject> cars;
-    public TextMeshProUGUI name;
+    public TextMeshProUGUI nome;
     public static MainManager Instance;
     // Start is called before the first frame update
     void Start()
     {
-        name.text = UserControl.Instance.PlayerName;
+        nome.text = UserControl.Instance.CurrentPlayerName;
     }
 
     // Update is called once per frame
